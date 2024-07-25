@@ -41,7 +41,7 @@ function añadirProducto(ev) {
     nuevoProducto.innerHTML = `
     <h2>${inputProducto.value}</h2>
     <p>${precio.value}€</p>
-    <button onclick>Compralo!</button>
+    <button onclick>X</button>
     `
 
     lista.append(nuevoProducto)
