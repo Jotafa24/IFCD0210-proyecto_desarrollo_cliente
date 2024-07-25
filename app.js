@@ -29,6 +29,7 @@ const inputProducto = document.querySelector('input')
 const precio = document.querySelector('input[type="number"]')
 
 
+
 function añadirProducto(ev) {
 
     ev.preventDefault()
@@ -40,6 +41,7 @@ function añadirProducto(ev) {
     nuevoProducto.innerHTML = `
     <h2>${inputProducto.value}</h2>
     <p>${precio.value}€</p>
+    <button onclick>Compralo!</button>
     `
 
     lista.append(nuevoProducto)
